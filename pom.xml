@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.tangcheng.qiniu.oss</groupId>
+    <artifactId>qiniu-oss-spring-boot-starter</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>qiniu-oss-spring-boot-starter</name>
+    <description>Spring Boot with Qiniu support,help you simplify Qiniu config in Spring Boot.</description>
+    <url>https://github.com/helloworldtang/qiniu-oss-spring-boot-starter</url>
+
+    <properties>
+        <spring.boot.version>2.0.1.RELEASE</spring.boot.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <developers>
+        <developer>
+            <name>唐成</name>
+            <url>https://github.com/helloworldtang</url>
+            <email>793059909@qq.com</email>
+        </developer>
+    </developers>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>${spring.boot.version}</version>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>[7.0.0, 7.2.99]</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <scm>
+        <url>https://helloworld.tang@github.com/helloworldtang/qiniu-oss-spring-boot-starter.git</url>
+        <connection>scm:git:https://helloworld.tang@github.com/helloworldtang/qiniu-oss-spring-boot-starter.git
+        </connection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <!--    <distributionManagement>
+            <repository>
+                <id>releases</id>
+                <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            </repository>
+            <snapshotRepository>
+                <id>snapshots</id>
+                <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            </snapshotRepository>
+            <downloadUrl>https://oss.sonatype.org/content/groups/public</downloadUrl>
+        </distributionManagement>-->
+
+</project>

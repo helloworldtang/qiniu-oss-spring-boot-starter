@@ -1,0 +1,38 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties",
+      "name": "qiniu.oss",
+      "type": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties"
+    },
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties",
+      "name": "qiniu.oss.bucket",
+      "sourceMethod": "getBucket()",
+      "type": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties$Bucket"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties",
+      "name": "qiniu.oss.access-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties$Bucket",
+      "name": "qiniu.oss.bucket.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties$Bucket",
+      "name": "qiniu.oss.bucket.zone",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties",
+      "name": "qiniu.oss.secret-key",
+      "type": "java.lang.String"
+    }
+  ]
+}
