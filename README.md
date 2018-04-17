@@ -3,7 +3,7 @@ qiniu-oss-spring-boot-starter
 
 1. finish UploadManager
 ### Usage
-1. 在application.properties中配置
+1. 在application.properties中配置      
 ![properties-demo](https://user-images.githubusercontent.com/13701989/38785476-1b9b9274-4153-11e8-80f7-80c71a310e0b.png)
 2. 示例代码
 ```java
@@ -46,5 +46,5 @@ debug=true
 >   QiniuUploadManagerAutoConfiguration matched:
       - @ConditionalOnClass found required class 'com.qiniu.storage.UploadManager'; @ConditionalOnMissingClass did not find unwanted class (OnClassCondition)
       - @ConditionalOnProperty (qiniu.oss.enabled) matched (OnPropertyCondition)
-    QiniuUploadManagerAutoConfiguration#qiniuUploadManager matched:
+>   QiniuUploadManagerAutoConfiguration#qiniuUploadManager matched:
       - @ConditionalOnMissingBean (types: com.tangcheng.qiniu.oss.autoconfigure.QiniuUploadManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
