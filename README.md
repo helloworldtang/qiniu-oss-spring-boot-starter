@@ -3,9 +3,21 @@ qiniu-oss-spring-boot-starter
 
 1. finish UploadManager
 ### Usage
-1. 在application.properties中配置      
+1. 安装在本地maven仓库    
+  ``bash
+  mvn clean install
+  ``
+2. add dependency
+```xml
+		<dependency>
+			<groupId>com.tangcheng.qiniu.oss</groupId>
+			<artifactId>qiniu-oss-spring-boot-starter</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+```
+3. 在application.properties中配置      
 ![properties-demo](https://user-images.githubusercontent.com/13701989/38785476-1b9b9274-4153-11e8-80f7-80c71a310e0b.png)
-2. 示例代码
+4. 示例代码
 ```java
 import com.tangcheng.qiniu.oss.autoconfigure.QiniuUploadManager;
 import org.springframework.beans.factory.annotation.Autowired;
