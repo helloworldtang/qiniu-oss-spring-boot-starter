@@ -1,4 +1,4 @@
-package com.tangcheng.qiniu.oss;
+package com.huayaoman.qiniu.oss;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

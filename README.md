@@ -10,7 +10,7 @@ qiniu-oss-spring-boot-starter
 2. add dependency
 ```xml
 		<dependency>
-			<groupId>com.tangcheng.qiniu.oss</groupId>
+			<groupId>com.huayaoman.qiniu.oss</groupId>
 			<artifactId>qiniu-oss-spring-boot-starter</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -19,7 +19,7 @@ qiniu-oss-spring-boot-starter
 ![properties-demo](https://user-images.githubusercontent.com/13701989/38785476-1b9b9274-4153-11e8-80f7-80c71a310e0b.png)
 4. 示例代码
 ```java
-import com.tangcheng.qiniu.oss.autoconfigure.QiniuUploadManager;
+import com.huayaoman.qiniu.oss.autoconfigure.QiniuUploadManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -59,4 +59,4 @@ debug=true
       - @ConditionalOnClass found required class 'com.qiniu.storage.UploadManager'; @ConditionalOnMissingClass did not find unwanted class (OnClassCondition)
       - @ConditionalOnProperty (qiniu.oss.enabled) matched (OnPropertyCondition)
 >   QiniuUploadManagerAutoConfiguration#qiniuUploadManager matched:
-      - @ConditionalOnMissingBean (types: com.tangcheng.qiniu.oss.autoconfigure.QiniuUploadManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+      - @ConditionalOnMissingBean (types: com.huayaoman.qiniu.oss.autoconfigure.QiniuUploadManager; SearchStrategy: all) did not find any beans (OnBeanCondition)

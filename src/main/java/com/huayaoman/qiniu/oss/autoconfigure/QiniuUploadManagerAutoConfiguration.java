@@ -1,8 +1,8 @@
-package com.tangcheng.qiniu.oss.autoconfigure;
+package com.huayaoman.qiniu.oss.autoconfigure;
 
 import com.qiniu.storage.UploadManager;
 import com.qiniu.util.Auth;
-import com.tangcheng.qiniu.oss.autoconfigure.properties.QiniuOssProperties;
+import com.huayaoman.qiniu.oss.autoconfigure.properties.QiniuOssProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.tangcheng.qiniu.oss.autoconfigure;
+package com.huayaoman.qiniu.oss.autoconfigure;
 
 import com.qiniu.common.QiniuException;
 import com.qiniu.http.Response;

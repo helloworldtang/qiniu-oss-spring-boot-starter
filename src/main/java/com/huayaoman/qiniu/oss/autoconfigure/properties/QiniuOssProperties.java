@@ -1,4 +1,4 @@
-package com.tangcheng.qiniu.oss.autoconfigure.properties;
+package com.huayaoman.qiniu.oss.autoconfigure.properties;
 
 import com.qiniu.common.Zone;
 import org.springframework.boot.context.properties.ConfigurationProperties;
