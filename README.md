@@ -10,7 +10,7 @@ qiniu-oss-spring-boot-starter
 2. add dependency
 ```xml
 		<dependency>
-			<groupId>com.huayaoman.qiniu.oss</groupId>
+			<groupId>com.huayaoman</groupId>
 			<artifactId>qiniu-oss-spring-boot-starter</artifactId>
 			<version>1.0.0</version>
 		</dependency>
